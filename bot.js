@@ -13,8 +13,6 @@ const bot = new Telegraf(config.BOT_TOKEN);
 
 // Command /start untuk menyapa pengguna dan menampilkan menu
 bot.start(async (ctx) => {
-  users.add(ctx.from.id);
-  saveUsers(users);
   await ctx.telegram.sendChatAction(ctx.chat.id, "typing");
 
   setTimeout(async () => {
