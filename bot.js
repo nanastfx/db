@@ -1895,7 +1895,7 @@ bot.command("addsubdomain", async (ctx) => {
 });
 
 // Jalankan bot
-bot.launch(() => log("Encrypt Bot by CELLA berjalan..."));
+bot.launch(() => console.log("Encrypt Bot by CELLA berjalan..."));
 process.on("unhandledRejection", (reason) =>
   console.log("Unhandled Rejection", reason)
 );
