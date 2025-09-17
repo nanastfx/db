@@ -1,5 +1,5 @@
 // config.js
 module.exports = {
-    BOT_TOKEN: "7866287038:AAGOBbxoHvbt8k6E2wokZA4PjY7Yaz_DVSo", 
+    BOT_TOKEN: "8355684195:AAHovBWSkk8tIHpSAbiXzhQgmrjsLPiF18E", 
     ADMIN_ID: 7612475043  
 };
